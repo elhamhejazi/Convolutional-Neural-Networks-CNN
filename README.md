@@ -20,8 +20,8 @@ Layer (type): dense_1 (Dense), Output shaper: (None, 512), Param: 401920
 Layer (type): dense_2 (Dense), Output shaper: (None, 512), Param: 262656    
 Layer (type): dense_3 (Dense), Output shaper: (None, 10), Param: 5130   
 
-Total params: 669,706
-Trainable params: 669,706
+Total params: 669,706 -
+Trainable params: 669,706 -
 Non-trainable params: 0
 
 ## Convolutional Neural Networks
@@ -36,8 +36,8 @@ Layer (type): flatten_1 (Flatten), Output shaper:(None, 3136), Param: 0
 Layer (type): dense_5 (Dense), Output shaper: (None, 1024), Param: 3212288  
 Layer (type): dense_6 (Dense), Output shaper: (None, 10), Param: 10250 
 
-Total params: 3,274,634
-Trainable params: 3,274,634
+Total params: 3,274,634 -
+Trainable params: 3,274,634 -
 Non-trainable params: 0
 
 

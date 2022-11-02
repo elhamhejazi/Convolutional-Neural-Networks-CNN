@@ -40,5 +40,8 @@ Total params: 3,274,634 -
 Trainable params: 3,274,634 -
 Non-trainable params: 0
 
+## Conclusion
+I was able to reduce my prediction error from 1-2% to less than 1% and high accuracy using Keras' convolutional neural network
+
 
 

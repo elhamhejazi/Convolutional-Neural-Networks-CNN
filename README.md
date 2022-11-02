@@ -20,7 +20,7 @@ Model: "sequential_1"
 Layer1:\
 Layer (type): dense_1 (Dense), Output shaper: (None, 512), Param: 401920    
 
-Layer2:\ 
+Layer2:\
 Layer (type): dense_2 (Dense), Output shaper: (None, 512), Param: 262656    
 
 Layer3:\

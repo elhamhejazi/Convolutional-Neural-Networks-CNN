@@ -16,15 +16,15 @@ The National Institute of Standards and Technology provided many datasets of sca
 To compare our convolutional neural network, which we will employ later, I begin with a baseline model. We flatten our 28 by 28 pixel photos into a single 784 length vector for each image in order to do a Fully Connected Neural Network. Then, in order to facilitate the functioning of our neural network, I alter the grayscale values from 0-255 to 0-1 (Normalization). We then convert the categories 1 through 9 into a binary matrix. Here is my current neural network model:
 
 Model: "sequential_1"
-_________________________________________________________________
+
 Layer (type)                 Output Shape              Param #   
-=================================================================
+
 dense_1 (Dense)              (None, 512)               401920    
-_________________________________________________________________
+
 dense_2 (Dense)              (None, 512)               262656    
-_________________________________________________________________
+
 dense_3 (Dense)              (None, 10)                5130      
-=================================================================
+
 Total params: 669,706
 Trainable params: 669,706
 Non-trainable params: 0

@@ -17,13 +17,11 @@ To compare our convolutional neural network, which we will employ later, I begin
 
 Model: "sequential_1"
 
-Layer (type)                 Output Shape              Param #   
---------------------------------------------------------------
-dense_1 (Dense)              (None, 512)               401920    
+Layer1: dense_1 (Dense)\              (None, 512)\               401920\    
 
-dense_2 (Dense)              (None, 512)               262656    
+Layer2: dense_2 (Dense)\             (None, 512)\               262656\    
 
-dense_3 (Dense)              (None, 10)                5130      
+Layer3: dense_3 (Dense)\              (None, 10)\                5130\      
 
 Total params: 669,706
 Trainable params: 669,706

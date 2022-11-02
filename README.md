@@ -28,31 +28,22 @@ Layer (type): dense_3 (Dense), Output shaper: (None, 10), Param: 5130
 
 Total params: 669,706\
 Trainable params: 669,706\
-Non-trainable params: 0\
+Non-trainable params: 0
 
 ## Convolutional Neural Networks
 I achieved an great 1-2% mistake rate, which was as intended. In this case, I use the Kera library to build convolutional neural networks. Convolutional layers, pooling layers, and FCC layers are just a few examples of how I'll utilise a contemporary CNN implementation. A convolutional layer with 32 feature maps, each measuring 5 by 5, is added. This is also our input layer, and it anticipates the addition of photos. I then specify a 2 x 2 pool size. Finally, we produce probability-like predictions for each prediction class using 10 neurons with a softmax activation function. Here is my current neural network model:
 
-Model: "sequential_3"
-_________________________________________________________________
-Layer (type)                 Output Shape              Param #   
-=================================================================
-conv2d_1 (Conv2D)            (None, 28, 28, 32)        832       
-_________________________________________________________________
-max_pooling2d_1 (MaxPooling2 (None, 14, 14, 32)        0         
-_________________________________________________________________
-conv2d_2 (Conv2D)            (None, 14, 14, 64)        51264     
-_________________________________________________________________
-max_pooling2d_2 (MaxPooling2 (None, 7, 7, 64)          0         
-_________________________________________________________________
-flatten_1 (Flatten)          (None, 3136)              0         
-_________________________________________________________________
-dense_5 (Dense)              (None, 1024)              3212288   
-_________________________________________________________________
-dense_6 (Dense)              (None, 10)                10250     
-=================================================================
-Total params: 3,274,634
-Trainable params: 3,274,634
+Model: "sequential_3"\
+conv2d_1 (Conv2D)            (None, 28, 28, 32)        832\       
+max_pooling2d_1 (MaxPooling2 (None, 14, 14, 32)        0 \        
+conv2d_2 (Conv2D)            (None, 14, 14, 64)        51264 \    
+max_pooling2d_2 (MaxPooling2 (None, 7, 7, 64)          0     \    
+flatten_1 (Flatten)          (None, 3136)              0        \ 
+dense_5 (Dense)              (None, 1024)              3212288  \ 
+dense_6 (Dense)              (None, 10)                10250  \
+
+Total params: 3,274,634\
+Trainable params: 3,274,634\
 Non-trainable params: 0
 
 
